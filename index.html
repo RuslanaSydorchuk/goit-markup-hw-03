@@ -16,28 +16,29 @@
 
 <body>
 
-    <header class="container">
-        <div class="main-nav">
-            <a class="header-logo" href=""> <span class="accent">Web</span>Studio
-            </a>
-            <nav>
-                <ul class="site-nav list">
-                    <li class="item"><a href="index.html" class="link current">Студия</a></li>
-                    <li class="item"><a href="portfolio.html" class="link">Портфолио</a></li>
-                    <li class="item"><a href="" class="link">Контакты</a></li>
+    <header class="header">
+        <div class="container">
+            <div class="main-nav">
+                <a class="header-logo" href=""> <span class="accent">Web</span>Studio
+                </a>
+                <nav>
+                    <ul class="site-nav list">
+                        <li class="item"><a href="index.html" class="link current">Студия</a></li>
+                        <li class="item"><a href="portfolio.html" class="link">Портфолио</a></li>
+                        <li class="item"><a href="" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="contact-nav list">
+                    <li class="item">
+                        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                    </li>
+                    <li class="item">
+                        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                    </li>
                 </ul>
-            </nav>
-            <ul class="contact-nav list">
-                <li class="item">
-                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-                </li>
-                <li class="item">
-                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-                </li>
-            </ul>
+            </div>
         </div>
-        <hr style="width:100%; text-align:center; margin: 0; border: 1px solid #ECECEC;">
-    </header>
+    </header> 
 
     <main>
         <section class="hero">
@@ -95,23 +96,31 @@
                 <ul class="list team">
                     <li class="item member">
                         <img src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="270" height="260" class="team-member-photo">
-                        <h3 class="team-member-name">Игорь Демьяненко</h3>
-                        <p class="team-member-position" lang="en">Product Designer</p>
+                        <div class="member-information">
+                            <h3 class="team-member-name">Игорь Демьяненко</h3>
+                            <p class="team-member-position" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="item member">
                         <img src="./images/team-card-2.jpg" alt="Ольга Репина" width="270" height="260" class="team-member-photo">
-                        <h3 class="team-member-name">Ольга Репина</h3>
-                        <p class="team-member-position" lang="en">Frontend Developer</p>
+                        <div class="member-information">
+                            <h3 class="team-member-name">Ольга Репина</h3>
+                            <p class="team-member-position" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="item member">
                         <img src="./images/team-card-3.jpg" alt="Николай Тарасов" width="270" height="260" class="team-member-photo">
-                        <h3 class="team-member-name">Николай Тарасов</h3>
-                        <p class="team-member-position" lang="en">Marketing</p>
+                        <div class="member-information">
+                            <h3 class="team-member-name">Николай Тарасов</h3>
+                            <p class="team-member-position" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="item member">
                         <img src="./images/team-card-4.jpg" alt="Михаил Ермаков" width="270" height="260" class="team-member-photo">
-                        <h3 class="team-member-name">Михаил Ермаков</h3>
-                        <p class="team-member-position" lang="en">UI Designer</p>
+                        <div class="member-information">
+                            <h3 class="team-member-name">Михаил Ермаков</h3>
+                            <p class="team-member-position" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
